@@ -25,7 +25,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
         android:background="#ffffff"
-        android:text="<"
+        android:text="<<"
         android:textSize="80sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
