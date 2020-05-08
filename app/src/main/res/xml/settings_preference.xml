@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="메시지 알림">
+        <SwitchPreference
+            android:key="msg_notify"
+            android:title="메시지 알림"
+            />
+        <SwitchPreference
+            android:key="msg_sound"
+            android:title="소리"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

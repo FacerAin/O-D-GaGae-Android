@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/splashText_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELOS."
+        android:layout_centerInParent="true"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/splashText_main"
+        android:text="모두를 위한 간단한 팀플관리"
+        android:textSize="10sp"
+        android:layout_alignLeft="@+id/splashText_main"
+        />
+
+</RelativeLayout>
